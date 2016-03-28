@@ -30,8 +30,11 @@
         <p class="ans"
             ng-click="selectAnswer($parent.$index, $index)"
             ng-repeat="Answer in myQuestion.answers"
-            ng-class="{ selected:isSelected($parent.$index, $index),
-            correct:isCorrect($parent.$index, $index) }">
+            ng-class="{
+            image:Answer.image,
+            selected:isSelected($parent.$index, $index),
+            correct:isCorrect($parent.$index, $index) }"
+            ng-style="{ 'background-image': 'url({{ Answer.image }})' }">
             {{ Answer.text }}
         </p>
         <div class="feedback">
