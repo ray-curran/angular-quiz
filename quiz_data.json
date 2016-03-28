@@ -2,9 +2,9 @@
   {
     "question":"Saturn is the _______ planet from the Sun.",
     "answers" :[
-    {"id": 0, "text": "Fourth"}
-    {"id": 1, "text": "Sixth"}
-    {"id": 2, "text": "Second"}
+    {"id": 0, "text": "Fourth"},
+    {"id": 1, "text": "Sixth"},
+    {"id": 2, "text": "Second"},
     {"id": 3, "text": "Eighth"}
     ],
     "correct": 1
@@ -51,3 +51,4 @@
     "correct"  : 0
   }
 ]
+
