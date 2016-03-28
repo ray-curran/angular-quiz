@@ -87,6 +87,16 @@ body { background-color: #fff; padding: 20px; }
   height: 40px;
   background: url('../images/ring.svg') no-repeat 0px 0px;
   transition: opacity 1s, top 1s;
+  opacity: 0;
+}
+
+#myQuiz .progress div.on, #myQuiz .progress div.answered {
+  background-color: #efbe5e;
+}
+
+#myQuiz .progress div.correct::after {
+  top: -5px;
+  opacity: 1;
 }
 
 
